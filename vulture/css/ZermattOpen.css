@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:100px) and (max-width:768.9px) {
+	
+	
+}
+
+@media screen and (min-width:769px) {
+
+    .item-logo {
+        position: absolute;
+        z-index: 1;
+    }
+    .item-logo img {
+        margin-left: 4vw;
+        margin-top: 2vh;
+    }
+
+    .hero-image {
+        background-image: url("../images/Snowboard.jpg");
+        background-color: #ffffff;
+        height: 1000px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #740715;
+      } 
+}
